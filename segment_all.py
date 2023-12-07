@@ -8,6 +8,7 @@ import glob
 
 #User selection
 images_folder = "real_images"
+#images_folder = "synthetic_images\\close"
 
 #Initialization of variables
 model_list = {'unet':512, 'deeplabv3p':512, 'fcn':512, 'fpn':512,'linknet':512, 'pspnet':480} #Model names and img sizes

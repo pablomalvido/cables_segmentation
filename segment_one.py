@@ -8,7 +8,7 @@ import glob
 
 #User selections
 images_folder = "real_images"
-image_name = "1.jpeg"
+image_name = "20231108_143246_7.jpg"
 model_name = 'unet'
 
 #Initialization of variables
@@ -51,6 +51,7 @@ ori_x = cv.resize(ori_x, (IMAGE_SIZE, IMAGE_SIZE))
 x = ori_x/255.0
 x = x.astype(np.float32)
 x = np.expand_dims(x, axis=0)
+cv.imshow("Image", ori_x)
 
 #Predict and save result
 start_time = time.time()
@@ -67,6 +68,7 @@ mask_ground_truth = cv.imread(path_mask, cv.IMREAD_GRAYSCALE)
 if mask_ground_truth.shape[0] != IMAGE_SIZE:
     mask_ground_truth = cv.resize(mask_ground_truth, (IMAGE_SIZE, IMAGE_SIZE))
 _, binary_image_GT = cv.threshold(mask_ground_truth, 60, 255, cv.THRESH_BINARY)
+cv.imshow("Ground truth", binary_image_GT)
 
 #Get metrics
 tp_i, fp_i, fn_i, tn_i = compare_masks(image_gray_segmented, binary_image_GT)
