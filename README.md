@@ -50,7 +50,7 @@ If you want to use your own images to segment cables, the resolution of the imag
 - https://www.poliigon.com/texture/strip-wood-flooring-texture-warm-brown/3235
 - https://www.poliigon.com/texture/natural-brick-bond-pattern-merbau-wood-flooring-texture/4204
 - https://www.poliigon.com/texture/quartered-fine-chiffon-wood-veneer-flooring-texture/3836
-- Additionally, 8 textures that were used for the synthetic cables generation has been removed from Poliigon webpage: CobblestoneArches002, GroundSnowPitted003, Fingerprints004, GroundForest003, RustMixedOnPaint012, WallMedieval003, ConcreteWall001, Plaster17
+- Additionally, 8 textures that were used for the synthetic cables generation have been removed from Poliigon webpage: CobblestoneArches002, GroundSnowPitted003, Fingerprints004, GroundForest003, RustMixedOnPaint012, WallMedieval003, ConcreteWall001, Plaster17
 
 ### HDRis (from https://polyhaven.com/):
 - https://polyhaven.com/a/aircraft_workshop_01
