@@ -1,4 +1,4 @@
-# Generation of realistic synthetic cable images to train AI segmentation models
+# Generation of realistic synthetic cable images to train Deep Learning segmentation models
 
 This package must contain the following files/folders:
 
