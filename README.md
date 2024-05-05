@@ -10,7 +10,7 @@ This package must contain the following files/folders:
 	
 - models/: This folder contains the trained segmentation models. The models can be downloaded from https://drive.google.com/drive/folders/1jXdS53sfyJ7MOfui93D3Cl22wtmTkyXU?usp=sharing. After downloading them, add the models/ folder to the package.
 
-- real_images/: This folder contains the 54 real cable images and the ground truth segmentation masks (labelled manually) that have been used to validate the models trained with the synthetic dataset. Additionally, this molder contains the resulting segmentation with each of the trained models.
+- real_images/: This folder contains the 100 real cable images and the ground truth segmentation masks (labelled manually) that have been used to validate the models trained with the synthetic dataset. Additionally, this molder contains the resulting segmentation with each of the trained models.
 
 - synthetic_images/: This folder contains some of the synthetic images and masks utilized to train the models (180 images, 30 for each category). The entire dataset (25000 images) can be downloaded at: https://doi.org/10.23729/93af7b3a-0f99-418b-9769-3ab8f345909a.
 
