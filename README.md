@@ -1,8 +1,10 @@
 # Generation of realistic synthetic cable images to train Deep Learning segmentation models
 
+This system is presented in the following research article: *MalvidoFresnillo, P., Mohammed, W. M., Vasudevan, S., PerezGarcia, J. A., & MartinezLastra, J. L. (2024). Generation of realistic synthetic cable images to train deep learning segmentation models. Machine Vision and Applications, 35(4), 1–14. doi: 10.1007/s00138-024-01562-y* (https://link.springer.com/article/10.1007/s00138-024-01562-y)
+
 This package must contain the following files/folders:
 
-- blender_script/: This folder contains the python script used in Blender to generate the images for the synthetic cables segmentation dataset.
+- blender_script/: This folder contains the Python script used in Blender to generate the images for the synthetic cables segmentation dataset.
 
 - environments/: This folder contains two anaconda environments:
 	- blender.yml: This is the environment that has to be linked with Blender's Python to run the blender_script/synthetic_cables_generation.py script.
